@@ -7,7 +7,6 @@
 
 **A modern Android novel reader with multi-source support, TTS, and offline reading**
 
-[![Website](https://img.shields.io/badge/Website-noveryapp.netlify.app-blue?logo=google-chrome)](https://noveryapp.netlify.app/)
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://www.android.com/)
 [![Min SDK](https://img.shields.io/badge/Min%20SDK-26-blue.svg)](https://developer.android.com/about/versions/oreo)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
