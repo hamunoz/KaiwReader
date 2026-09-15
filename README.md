@@ -79,13 +79,6 @@ all built with **Jetpack Compose** and **Material 3**.
 ---
 
 
-
-## 🙏 Acknowledgments
-- [Tachiyomi](https://github.com/tachiyomiorg/tachiyomi) — pioneered the multi-source reader concept  
-- [QuickNovel](https://github.com/LagradOst/QuickNovel) — inspiration for novel-specific reader design  
-
----
-
 ## ⚠️ Disclaimer
 KaiwReader does not host, store, or distribute any content. The app functions as a search
 engine and aggregator — it crawls and displays content from third-party websites that
