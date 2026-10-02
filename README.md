@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/hamunoz/KaiwReader/refs/heads/main/logo_transparente_borde.png" width="400px">
 
- # KaiwReader - BETA 
+# KaiwReader - BETA
 
 
 
@@ -11,23 +11,41 @@
 [![Min SDK](https://img.shields.io/badge/Min%20SDK-26-blue.svg)](https://developer.android.com/about/versions/oreo)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 
- · [Features](#features) · 
+· [Features](#features) ·
 
 </div>
 
 ---
 
+
 ## 📖 About
 
-**KaiwReader** is a free, open-source Android app for reading web novels from multiple sources. 
-Built upon the core architecture of [**Novery**](https://github.com/1Finn2me/Novery) and inspired by [Tachiyomi](https://github.com/tachiyomiorg/tachiyomi) and [QuickNovel](https://github.com/LagradOst/QuickNovel), it provides a clean, customizable reading experience with **Text-to-Speech**, **offline reading**, and **personalized recommendations** — 
-all built with **Jetpack Compose** and **Material 3**.
+**KaiwReader** is a free, open-source Android novel reader **built around translation**: read web novels from multiple sources in your own language, in real time, without losing your place.
+Right behind it comes an **immersive TTS audiobook mode**; everything else — offline reading, dynamic library, stats, recommendations — is a plus on top of that core.
 
+Born from [Novery](https://github.com/1Finn2me/Novery) by 1Finn2me — after a long road through NovelDokusha and QuickNovel — and modified until it became its own thing. Inspired by [Tachiyomi](https://github.com/tachiyomiorg/tachiyomi) and [QuickNovel](https://github.com/LagradOst/QuickNovel), built with **Jetpack Compose** and **Material 3**.
 
+---
 
 <div id="features"></div>
 
 ## ✨ Features
+
+### 🌍 Real-time Translator
+- **Instant Translation**: Toggle real-time translation on/off without losing your place  
+- **Multi-Language Support**: Access content in your preferred language using advanced translation engines  
+- **Layout Stability**: Specialized engine that prevents scroll jumps and position loss during translation  
+- **On-Device & Online Engines**: ML Kit offline models or Google online translation, with one-touch model management  
+- **Persistent Cache**: SQL translation cache with a 5-chapter smart buffer for zero-latency re-reading  
+- **TTS Continuity**: Text-to-Speech keeps reading the translated text, even in the background  
+- **Progress Tracking**: Real-time visual feedback on translation status for each paragraph  
+
+### 🎧 Immersive TTS Audiobook
+- **Audiobook Mode**: Full-screen Material 3 player — cover art, title, author and giant controls — turns any novel into an audiobook  
+- **Foreground Playback**: Dedicated media-playback service keeps reading with the screen off or the app in the background, with notification controls  
+- **Listening Controls**: Scrubber with elapsed/remaining time, `-15s` / `+30s` jumps, previous/next chapter, speed (`1x`–`2x`) and sleep timer  
+- **Translated Audio**: Continues into the next chapters using the translated text  
+- **Smart Focus**: Returns the reader to the last spoken sentence when you leave audiobook mode  
 
 ### 📚 Multi-Source Browse & Search
 - **Multiple novel sources**: Support for a variety of web novel providers
@@ -48,12 +66,6 @@ all built with **Jetpack Compose** and **Material 3**.
 - **Persistent Cache**: Robust local caching for seamless offline reading of recently accessed chapters  
 - **Optimized Download Queue**: Multi-priority background downloading for entire series  
 
-### 🌍 Real-time Translator
-- **Instant Translation**: Toggle real-time translation on/off without losing your place  
-- **Multi-Language Support**: Access content in your preferred language using advanced translation engines  
-- **Layout Stability**: Specialized engine that prevents scroll jumps and position loss during translation  
-- **Progress Tracking**: Real-time visual feedback on translation status for each paragraph  
-
 ### 📚 Dynamic Library (Full CRUD)
 - **Custom Shelves**: Move beyond static status; create, rename, delete, merge, and reorder your own categories  
 - **Bulk Operations**: Multi-select novels to move, delete, or mark status in seconds  
@@ -61,8 +73,8 @@ all built with **Jetpack Compose** and **Material 3**.
 
 ### 🤖 Smart Recommendations
 - **Provider Rotation (2+3)**: Dynamic matching engine that balances 2 user favorites with 3 random active sources for fresh discovery  
-- **Learning Engine**: Learns from your reading patterns, tags, and authors  
-- **Blocklist**: Advanced filters to hide unwanted tags, specific authors, or low-quality sources  
+- **Learning Engine**: Learns from your reading patterns, tags 
+- **Blocklist**: Advanced filters to hide unwanted tags or low-quality sources  
 
 ### 🎨 Theming & UI
 - Material You dynamic colors (Android 12+)  
@@ -77,6 +89,7 @@ all built with **Jetpack Compose** and **Material 3**.
 - **History Timeline**: Grouped by date with chapter-level completion progress  
 
 ---
+
 
 
 ## ⚠️ Disclaimer
